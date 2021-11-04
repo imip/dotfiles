@@ -1,0 +1,29 @@
+[alias]
+  st = status
+  lola = log --graph --pretty='format:%C(auto)%h %d %s %C(green)%an%C(bold blue) %ad' --all --date=relative
+  tags = tag -l
+  branches = branch --all
+  remotes = remote --verbose
+
+[user]
+  email = 1639498+imip@users.noreply.github.com
+  name = Pierre-Michel Lefebvre
+
+[credential]
+  helper = store
+
+[core]
+  eol = lf
+  autocrlf = input
+
+[init]
+  defaultBranch = main
+
+[push]
+  default = current
+
+[fetch]
+  prune = true
+
+[help]
+  autocorrect = 1
